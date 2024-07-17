@@ -1,5 +1,5 @@
 # StableDiffusion-Model-Evaluation-Framework
-This is a framework to evaluate the Inference stage of your stable diffusion model
+This is a framework to evaluate the Inference Stage of your stable diffusion model
 
 ### Support
 ✅ Evalute the Inference time and GPU memory cost.
