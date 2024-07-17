@@ -176,10 +176,10 @@ def evaluation(pipe, height, width, steps):
 
     # 计算FID
 
-    # 下载对应的测试集并解压（已经下载好了）
-    
-    # dummy_dataset_url = "https://hf.co/datasets/sayakpaul/sample-datasets/resolve/main/sample-imagenet-images.zip"
-    # local_filepath = download(dummy_dataset_url, dummy_dataset_url.split("/")[-1])
+    # 这里必须使用Class-conditional image generation model, 目前还不支持任意自定义的模型（待解决）
+
+   '''
+    local_filepath='./sample-imagenet-images.zip'
 
     with ZipFile(local_filepath, "r") as zipper:
         zipper.extractall(".")
@@ -214,7 +214,8 @@ def evaluation(pipe, height, width, steps):
     fid.update(real_images, real=True)
     fid.update(fake_images, real=False)
 
-    print(f"FID: {float(fid.compute())}")    
+    print(f"FID: {float(fid.compute())}")
+    '''   
 
 
 
