@@ -7,7 +7,7 @@ This is a framework to evaluate the Inference Stage of your stable diffusion mod
 <br>✅ Evalute the Text2Img quality based on CLIP Score and FID metrics.
 
 ### How to use
-Take a look at modules/performance_evaluation.py and run it
+Take a look at `modules/performance_evaluation.py` and run it
 
 ### Quick start
 ```bash
