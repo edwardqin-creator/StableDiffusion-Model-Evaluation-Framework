@@ -44,8 +44,8 @@ def main(model_pipe=None):
     # 单次推理简要数据统计（第一个阶段）
     inference_single_time(model_pipe, mem_mon, prompt, height, width, steps)
 
-    # # 详细性能记录（第二个阶段）
-    # performance_record(model_pipe, prompt, height, width, steps)
+    # 详细性能记录（第二个阶段）
+    performance_record(model_pipe, prompt, height, width, steps)
 
     # 生图质量评估（第三个阶段）
     evaluation(model_pipe, height, width, steps)
