@@ -11,7 +11,7 @@ Take a look at `modules/performance_evaluation.py` and run it
 
 ### Quick start
 ```bash
-pip install torch torchvision torch_tb_profiler
+pip install torch torchvision torch_tb_profiler torch-fidelity
 
 cd modules
 python demo.py
